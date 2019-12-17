@@ -110,7 +110,7 @@ def setup_mse_plot():
 
 def plot_mse(fig, ax, mse):
     ax.clear()
-    ax.set_title("Training Error")
+    ax.set_title("Test Error")
     ax.set_ylabel('MSE')
     ax.set_xlabel('Epoch')
     fig.set_facecolor('#050505')
